@@ -12,27 +12,40 @@
 }
 
 .separador {
-    height: 30px;
+    height: 30px !important; 
     
 }
 
+.nuestrosPostres {
+  font-size: 4rem;
+  font-family: 'Open Sans', sans-serif;
+  
+}
+
 @-webkit-keyframes color-change-2x {
-    0% {
-      background: #19dcea;
-    }
-    100% {
-      background: #b22cff;
-    }
+  0% {
+    background: #19dcea;
   }
-  @keyframes color-change-2x {
-    0% {
-      background: #19dcea;
-    }
-    100% {
-      background: #b22cff;
-    }
+  100% {
+    background: #b22cff;
   }
+}
+@keyframes color-change-2x {
+  0% {
+    background: #19dcea;
+  }
+  100% {
+    background: #b22cff;
+  }
+}
+}
+
+
 
   .parrafo {
       font-size: 1.8rem;
+  }
+
+  .fondo {
+    background-image: url("../imagenes/separador.png");
   }
