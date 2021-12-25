@@ -1,0 +1,46 @@
+@import "./variables";
+
+.sass {
+    background-color: #0b060e;
+    display: flex;
+    justify-content: space-between;
+
+    
+
+
+    &__boton {
+        background-color: map-get($estilos, color );
+        font-size: map-get($estilos, TFuente);
+        border-radius: map-get($estilos, borde);
+        width: map-get($estilos , ancho );
+        margin: map-get($estilos, margen );
+        @include tamaño;
+
+    }
+
+    &__boton--instagram {
+        @extend .sass__boton;
+        background-color: rgb(243, 34, 191);
+    }
+
+    &__boton--twiter {
+        @extend .sass__boton;
+        background-color: rgb(89, 177, 250),;
+    }
+
+        
+        
+       
+            
+        }
+
+        
+
+
+
+
+
+
+
+
+

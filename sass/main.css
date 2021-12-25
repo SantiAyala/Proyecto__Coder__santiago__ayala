@@ -1,11 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Dancing+Script:wght@700&family=Holtwood+One+SC&family=Lato:wght@400;700;900&family=Londrina+Solid:wght@900&family=Luckiest+Guy&family=Montserrat:ital,wght@1,200&family=Open+Sans:wght@500&family=Permanent+Marker&family=Quicksand:wght@500&family=Rubik+Mono+One&display=swap");
-.header .header__logo {
+.header__logo {
   font-size: 4rem;
   font-family: 'Dancing Script', cursive;
   color: #50b9f7;
 }
 
-.header .header__texto {
+.header__texto {
   font-family: 'Open Sans', sans-serif;
   font-size: 2rem;
 }
@@ -44,5 +44,34 @@
 
 .parrafo {
   font-size: 1.8rem;
+}
+
+.sass {
+  background-color: #0b060e;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.sass__boton, .sass__boton--instagram, .sass__boton--twiter {
+  background-color: blue;
+  font-size: 2rem;
+  border-radius: 5px;
+  width: 200px;
+  margin: 5px;
+  height: 150px;
+  width: 300px;
+  padding: 20px;
+}
+
+.sass__boton--instagram {
+  background-color: #f322bf;
+}
+
+.sass__boton--twiter {
+  background-color: #59b1fa;
 }
 /*# sourceMappingURL=main.css.map */

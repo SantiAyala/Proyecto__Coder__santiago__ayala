@@ -1,0 +1,27 @@
+
+
+$estilos: (
+    color: blue,
+    color2: rgb(243, 34, 191),
+    color3: rgb(89, 177, 250),
+    TFuente: 2rem,
+    borde: 5px,
+    ancho: 200px,
+    estilo: none,
+    margen: 5px,
+
+
+);
+
+ 
+
+$colores:  blue, rgb(243, 34, 191), rgb(89, 177, 250);
+
+@mixin tamaño {
+    height: 150px;
+    width: 300px;
+    padding: 20px;
+    
+}
+
+
